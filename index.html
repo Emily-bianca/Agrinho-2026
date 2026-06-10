@@ -1,0 +1,265 @@
+  <!DOCTYPE html>
+  <html lang="pt-BR">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>O Chão que Produz é o Chão que Protege</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+  <header>
+  <nav class="navbar">
+
+  <div class="logo">
+  🌱 Solo Sustentável
+  </div>
+
+  <ul class="menu">
+  <li><a href="#inicio">Início</a></li>
+  <li><a href="#solo">O Solo</a></li>
+  <li><a href="#produz">Produz</a></li>
+  <li><a href="#protege">Protege</a></li>
+  <li><a href="#ameacas">Ameaças</a></li>
+  <li><a href="#solucoes">Soluções</a></li>
+  <li><a href="#quiz">Quiz</a></li>
+  </ul>
+
+  <div class="acessibilidade">
+  <button id="darkMode">🌙</button>
+  <button id="increaseFont">A+</button>
+  <button id="decreaseFont">A-</button>
+  <button id="contrast">◐</button>
+  </div>
+
+  </nav>
+  </header>
+
+  <!-- HERO -->
+
+  <section id="inicio" class="hero">
+
+  <div class="hero-content">
+
+  <h1>O Chão que Produz é o Chão que Protege</h1>
+
+  <h2>
+  Como a conservação do solo garante alimentos, água e um futuro sustentável.
+  </h2>
+
+  <p>
+  O solo é um recurso natural essencial para a vida. Além de produzir os alimentos que consumimos diariamente, ele protege a água, abriga organismos importantes para o equilíbrio ambiental e contribui para um futuro sustentável.
+  </p>
+
+  <a href="#solo" class="btn">
+  Descubra a Importância do Solo
+  </a>
+
+  </div>
+
+  <div class="hero-image">
+  <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854" alt="Plantação saudável">
+  </div>
+
+  </section>
+
+  <!-- O SOLO -->
+
+  <section id="solo" class="section">
+
+  <h2 class="titulo-secao">O Que é o Solo?</h2>
+
+  <p>
+  O solo é o resultado de um paciente trabalho da natureza. Partículas minerais e orgânicas vão sendo depositadas em camadas devido à ação da chuva, do vento, do calor, do frio e de organismos como fungos, bactérias, minhocas, formigas e cupins, que desgastam lentamente as rochas.
+  </p>
+
+  <p>
+  Além de sustentar as plantas e produzir alimentos, o solo protege a água, abriga milhares de organismos e contribui para o equilíbrio ambiental.
+  </p>
+
+  <div class="curiosidade">
+  💡 Curiosidade: são necessários cerca de 400 anos para formar apenas 1 centímetro de solo.
+  </div>
+
+  <h3>Camadas do Solo</h3>
+
+  <div class="camadas">
+
+  <button class="camada horizonte-o" onclick="mostrarInfo('o')">
+  Horizonte O 🍂
+  </button>
+
+  <button class="camada horizonte-a" onclick="mostrarInfo('a')">
+  Horizonte A 🌱
+  </button>
+
+  <button class="camada horizonte-b" onclick="mostrarInfo('b')">
+  Horizonte B 🟤
+  </button>
+
+  <button class="camada horizonte-c" onclick="mostrarInfo('c')">
+  Horizonte C 🪨
+  </button>
+
+  <button class="camada rocha-matriz" onclick="mostrarInfo('r')">
+  Rocha Matriz ⛰️
+  </button>
+
+  </div>
+
+  <div id="infoSolo" class="infoSolo">
+  Clique em uma camada para visualizar sua explicação.
+  </div>
+
+  </section>
+
+  <!-- PRODUZ -->
+
+  <section id="produz" class="section">
+
+  <h2 class="titulo-secao">🌾 O Chão que Produz</h2>
+
+  <div class="cards">
+
+  <div class="card">
+  <h3>🌾 Produção de Grãos</h3>
+  <p>
+  O solo fornece os nutrientes necessários para culturas como milho, arroz, soja e trigo.
+  </p>
+  </div>
+
+  <div class="card">
+  <h3>🍎 Produção de Frutas</h3>
+  <p>
+  Frutas dependem de solos ricos em nutrientes e água para crescerem saudáveis.
+  </p>
+  </div>
+
+  <div class="card">
+  <h3>🥬 Verduras e Legumes</h3>
+  <p>
+  Um solo fértil garante alimentos mais nutritivos para a população.
+  </p>
+  </div>
+
+  <div class="card">
+  <h3>🏭 Matérias-primas</h3>
+  <p>
+  A agricultura fornece algodão, biocombustíveis e matérias-primas para diversas indústrias.
+  </p>
+  </div>
+
+  </div>
+
+  <div class="grafico-container">
+
+  <h3>Solo Saudável x Produtividade Agrícola</h3>
+
+  <div class="grafico">
+
+  <div class="barra degradado">
+  <span>40%</span>
+  </div>
+
+  <div class="barra regular">
+  <span>70%</span>
+  </div>
+
+  <div class="barra conservado">
+  <span>100%</span>
+  </div>
+
+  </div>
+
+  <p class="destaque">
+  Sem um solo fértil e conservado, a produção de alimentos diminui, comprometendo a segurança alimentar e a economia.
+  </p>
+
+  </div>
+
+  </section>
+
+  <!-- PROTEGE -->
+
+  <section id="protege" class="section destaque-verde">
+
+  <h2 class="titulo-secao">🌍 O Chão que Protege</h2>
+
+  <div class="cards">
+
+  <div class="card">
+  <h3>💧 Proteção da Água</h3>
+  <p>
+  O solo filtra a água da chuva e ajuda a abastecer rios, nascentes e lençóis freáticos.
+  </p>
+  </div>
+
+  <div class="card">
+  <h3>🐞 Biodiversidade</h3>
+  <p>
+  Milhões de organismos vivem no solo e ajudam a manter sua fertilidade.
+  </p>
+  </div>
+
+  <div class="card">
+  <h3>🌍 Proteção do Clima</h3>
+  <p>
+  O solo armazena carbono e ajuda a combater as mudanças climáticas.
+  </p>
+  </div>
+
+  <div class="card">
+  <h3>🛡️ Contra Erosão</h3>
+  <p>
+  A vegetação protege a camada fértil contra chuva e vento.
+  </p>
+  </div>
+
+  </div>
+
+  </section>
+
+  <!-- AMEAÇAS -->
+
+  <section id="ameacas" class="section">
+
+  <h2 class="titulo-secao">⚠️ Ameaças ao Solo</h2>
+
+  <div class="cards">
+
+  <div class="card">
+  <h3>⚠️ Erosão</h3>
+  <p>A remoção da camada fértil reduz a produtividade agrícola.</p>
+  </div>
+
+  <div class="card">
+  <h3>🔥 Queimadas</h3>
+  <p>Destroem organismos importantes e empobrecem o solo.</p>
+  </div>
+
+  <div class="card">
+  <h3>🪓 Desmatamento</h3>
+  <p>Deixa o solo exposto e aumenta a erosão.</p>
+  </div>
+
+  <div class="card">
+  <h3>🧪 Produtos Químicos</h3>
+  <p>Podem contaminar o solo, a água e os seres vivos.</p>
+  </div>
+
+  <div class="card">
+  <h3>🚜 Compactação</h3>
+  <p>Dificulta a entrada de água e o crescimento das raízes.</p>
+  </div>
+
+  </div>
+
+  </section>
+  
