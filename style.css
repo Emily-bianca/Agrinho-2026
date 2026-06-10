@@ -426,3 +426,34 @@ width:60px;
 }
 
 }
+
+/* Modo escuro - títulos */
+
+.dark h1,
+.dark h2,
+.dark h3 {
+    color: #90caf9;
+    }
+
+    /* Destaques e primeiras palavras */
+
+    .dark .titulo-secao {
+        color: #81c784;
+        }
+
+        .dark .destaque,
+        .dark blockquote {
+            color: #ffd54f;
+            }
+
+            .dark .card h3 {
+                color: #a5d6a7;
+                }
+
+                .dark .hero-content h1 {
+                    color: #a5d6a7;
+                    }
+
+                    .dark .hero-content h2 {
+                        color: #90caf9;
+                        }
