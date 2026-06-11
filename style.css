@@ -375,19 +375,46 @@ background:#000;
 
 /* ALTO CONTRASTE */
 
-.contrast{
-background:black !important;
-color:yellow !important;
-}
+.contrast {
+    background: #000 !important;
+        color: #fff !important;
+        }
 
-.contrast .card,
-.contrast .infoSolo,
-.contrast .pergunta{
-background:black !important;
-color:yellow !important;
-border:2px solid yellow;
-}
+        .contrast * {
+            color: #fff !important;
+            }
 
+            .contrast .card,
+            .contrast .infoSolo,
+            .contrast .pergunta,
+            .contrast .curiosidade,
+            .contrast footer,
+            .contrast .navbar {
+                background: #000 !important;
+                    border: 2px solid #ffff00 !important;
+                    }
+
+                    .contrast a,
+                    .contrast h1,
+                    .contrast h2,
+                    .contrast h3,
+                    .contrast .titulo-secao,
+                    .contrast blockquote,
+                    .contrast .destaque {
+                        color: #ffff00 !important;
+                        }
+
+                        .contrast .btn {
+                            background: #ffff00 !important;
+                                color: #000 !important;
+                                    border: 2px solid #fff !important;
+                                    }
+
+                                    .contrast .camada {
+                                        background: #222 !important;
+                                            color: #ffff00 !important;
+                                                border: 2px solid #ffff00 !important;
+                                                }
 /* RESPONSIVO */
 
 @media(max-width:900px){
@@ -455,5 +482,5 @@ width:60px;
                     }
 
                     .dark .hero-content h2 {
-                        color: #90caf9;
+                        color: #000;
                         }
