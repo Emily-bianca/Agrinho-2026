@@ -124,13 +124,13 @@ document.getElementById("darkMode");
 
 if(darkBtn){
 
-darkBtn.addEventListener("click", ()=>{
+    darkBtn.addEventListener("click", ()=>{
 
-document.body.classList.toggle("dark");
+        document.body.classList.remove("contrast");
+        document.body.classList.toggle("dark");
 
-});
-
-}
+        });
+    }
 
 // =========================
 // ALTO CONTRASTE
@@ -143,10 +143,10 @@ if(contrastBtn){
 
 contrastBtn.addEventListener("click", ()=>{
 
-document.body.classList.toggle("contrast");
+    document.body.classList.remove("dark");
+    document.body.classList.toggle("contrast");
 
-});
-
+    });
 }
 
 // =========================
